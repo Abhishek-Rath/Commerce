@@ -33,7 +33,7 @@ The project has following specifications:-
 
 
 To Use this app on your local machine, follow these steps:- 
-1. Clone this repository by executing command.
+1. Clone this repository.
 2. Install Django 3.2
 ` pip install django==3.2`
 
