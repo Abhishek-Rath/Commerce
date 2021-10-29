@@ -1,0 +1,49 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    
+<div class="container-fluid">
+    <h2 style="text-align: center;">Active Listings</h2>
+    <div class="row">
+        {% for auction in auctions %}
+        <div class="card mx-4 my-3"style="width:18rem;" >
+            <img src="{{auction.image.url}}" class="card-img-top" alt="image" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{auction.title}}</h5>
+                <!-- <h6 class="card-text">{{auction.description}}</h6> -->
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Category: <a href="{% url 'categories' auction.category %}">{{auction.category}}</a></li>
+                <li class="list-group-item">Bid: <i>${{auction.start_bid}}</i></li>
+                <li class="list-group-item">
+                    {% if auction.closed == False %}
+                        {% if auction.last_bid %}
+                            <p><strong>Current Bid: ₹{{auction.last_bid.bid}}</strong></p>
+                        {% else %}
+                            <p><strong>Initial Bid: ₹{{auction.start_bid}}</strong></p>
+                        {% endif %}
+
+                    {% else %}
+                        <p >Close in: {{auction.starting_bid}}</p>
+                        {% if auction.last_bid.user.username == request.user.username %}
+                            <p>You win this auction</p>
+                        {% else %}
+                            <p>Sold to {{auction.last_bid.user.username|title}} at price {{auction.last_bid.bid}}</p>
+                        {% endif %}
+                    {% endif %}
+                </li>
+                
+                <li class="list-group-item">{{auction.date}}</li>
+            </ul>
+            <div class="card-body">
+                <a href="{% url 'show_listing' auction.id %}" type=submit class="btn btn-primary">Go to Listing</a>
+            </div>      
+     </div>
+    {% endfor %}
+    </div>
+    
+</div>
+        
+
+       
+{% endblock %}

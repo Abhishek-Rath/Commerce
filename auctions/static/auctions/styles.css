@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+body {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.nav > li{
+    float: left;
+}
+
+.login, .register, .create-listing{
+    border: 5px solid #e6e6e6;
+    /* border-radius: 10%; */
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
