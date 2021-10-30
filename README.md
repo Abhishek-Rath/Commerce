@@ -32,6 +32,21 @@ The project has following specifications:-
 6. **Django Admin Interface:** Via the Django admin interface, a site administrator is able to view, add, edit, and delete any listings, comments, and bids made on the site.
 
 
+<<<<<<< HEAD
+=======
+To Use this app on your local machine, follow these steps:- 
+1. Clone this repository.
+2. Install Django 3.2
+` pip install django==3.2`
+
+3. To run the app -
+` python manage.py runserver`
+
+4. Copy this link  `http://127.0.0.1:8000/` and paste on your favourite browser.
+
+5. Explore
+
+>>>>>>> 5129b9c3c6554cfc06a4c26cde7881b42d8d8861
 
 ## Features to be added in future:
 1. Delete specific auction.
