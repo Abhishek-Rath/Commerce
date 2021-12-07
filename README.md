@@ -41,7 +41,7 @@ The project has following specifications:-
 ## Features to be added in future:
 1. Delete specific auction.
 2. Mobile Responsive.
-3. Add more CSS to make it look beautiful.
+3. Add more CSS 
 
 
 
