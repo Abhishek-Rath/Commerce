@@ -3,6 +3,8 @@
 
 ### This project is part of [CS50 Web Development with Python and JavaScript](https://cs50.harvard.edu/web/2020/).
 
+#### Link to project description is - https://cs50.harvard.edu/web/2020/projects/2/commerce/
+
 The project is an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”
 
 
@@ -32,8 +34,14 @@ The project has following specifications:-
 6. **Django Admin Interface:** Via the Django admin interface, a site administrator is able to view, add, edit, and delete any listings, comments, and bids made on the site.
 
 
+
+## Link to YouTube Video:- https://youtu.be/Emtos6xCjs4
+
+
 ## Features to be added in future:
 1. Delete specific auction.
 2. Mobile Responsive.
 3. Add more CSS to make it look beautiful.
+
+
 
