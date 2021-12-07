@@ -32,9 +32,8 @@ The project has following specifications:-
 6. **Django Admin Interface:** Via the Django admin interface, a site administrator is able to view, add, edit, and delete any listings, comments, and bids made on the site.
 
 
-
 ## Features to be added in future:
 1. Delete specific auction.
 2. Mobile Responsive.
-3. Add more CSS
+3. Add more CSS to make it look beautiful.
 
