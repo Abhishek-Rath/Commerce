@@ -1,4 +1,4 @@
-# Auction Site
+# Project 2 - eCommerce
 
 
 ### This project is part of [CS50 Web Development with Python and JavaScript](https://cs50.harvard.edu/web/2020/).
