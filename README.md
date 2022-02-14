@@ -8,6 +8,8 @@
 The project is an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”
 
 
+## Link to YouTube Video:- https://youtu.be/Emtos6xCjs4
+
 # Specifications
 The project has following specifications:-
 1. **Models**: The auction site contains the following models:
@@ -32,16 +34,3 @@ The project has following specifications:-
 5. **Watchlist:** Users who are signed in are able to visit a Watchlist page, which displays all of the listings that a user has added to their watchlist. Clicking on any of those listings should take the user to that listing’s page.
 
 6. **Django Admin Interface:** Via the Django admin interface, a site administrator is able to view, add, edit, and delete any listings, comments, and bids made on the site.
-
-
-
-## Link to YouTube Video:- https://youtu.be/Emtos6xCjs4
-
-
-## Features to be added in future:
-1. Delete specific auction.
-2. Mobile Responsive.
-3. Add more CSS 
-
-
-
